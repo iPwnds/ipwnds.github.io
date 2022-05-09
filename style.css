@@ -406,3 +406,107 @@ body.light .progress-wrap svg.progress-circle path {
 .switched .circle:after {
 	opacity: 1;
 }
+
+@keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+
+  @keyframes fadeout {
+	0% {opacity:1;}
+	100% {opacity:0;}
+  }
+
+.botnav {
+    overflow: hidden;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    text-shadow: none;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+.github {
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+
+.github:after {
+	content: "GitHub";
+}
+
+.github:hover:after {
+	content: "iPwnds";
+	animation: fadeIn 0.5s;
+}
+
+.discord {
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+
+.discord:after {
+	content: "Discord";
+}
+
+.discord:hover:after {
+	content: "プンズ#7686";
+	animation: fadeIn 0.5s;
+}
+
+.instagram {
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+
+.instagram:after {
+	content: "Instagram";
+}
+
+.instagram:hover:after {
+	content: "Floski___";
+	animation: fadeIn 0.5s;
+}
+
+.reddit {
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+
+.reddit:after {
+	content: "Reddit";
+}
+
+.reddit:hover:after {
+	content: "NotPwnds";
+	animation: fadeIn 0.5s;
+}
+
+.twitter {
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+
+.twitter:after {
+	content: "Twitter";
+}
+
+.twitter:hover:after {
+	content: "Floski11";
+	animation: fadeIn 0.5s;
+}
+
+.email {
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+
+.email:after {
+	content: "Email";
+}
+
+.email:hover:after {
+	content: "florian.braun.2005@gmail.com";
+	animation: fadeIn 0.5s;
+}
